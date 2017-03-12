@@ -1,0 +1,21 @@
+.button_red {
+  border: none;
+  border-radius: $small_border_radius;
+  background: linear-gradient(to bottom, $gradient_red_1, $gradient_red_2);
+  box-shadow: $shadow_top #b57657;
+}
+.button_black {
+  background-image: linear-gradient(to bottom, $gradient_black_3, $gradient_black_4);
+  box-shadow: $shadow_top #7e8183;
+}
+
+.black_back {
+  border: 1px solid #3f3e3d;
+  background: linear-gradient(to bottom,#232628, #2b2e2f);
+  border-radius: $small_border_radius;
+}
+
+.bordered {
+  border: 5px solid $terracotta;
+  box-shadow: -1px -1px 1px $dark_blue, 1px 1px 1px $dark_blue;
+}

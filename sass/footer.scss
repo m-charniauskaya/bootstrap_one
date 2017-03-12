@@ -1,0 +1,235 @@
+.footer {
+  background-color: $dark_blue;
+
+  h1 {
+    color: $terracotta;
+    font-size: $big_font;
+    font-style: italic;
+    font-weight: lighter;
+    display: inline-block;
+  }
+
+  h1>span {
+    font-weight: bold;
+  }
+
+}
+
+.subscribe {
+  display: inline-block;
+  padding: 43px 0 15px 0;
+
+  div {
+   display: inline-block;
+ }
+
+ li {
+   display: inline-block;
+ }
+}
+
+.subscribe>div {
+  padding: 0px 20px;
+  text-align: left;
+}
+.info {
+  width: 390px;
+  border-right: 1px solid $terracotta;
+  float: left;
+  position: relative;
+  height: 207px;
+
+  img {
+    float: right;
+    margin-left: 16px;
+    margin-top: 9px;
+  }
+
+  p {
+    font-size: $small_font;
+    color: $grey;
+    margin-top: 10px;
+  }
+}
+
+.dott {
+  position: absolute;
+  top: 95px;
+  right: -8px;
+  color: $terracotta;
+  background-color: $dark_blue;
+  z-index: 5;
+  height: 13px;
+}
+
+
+.newsletter {
+
+  ul {
+  display: inline-block;
+  margin-top: 30px;
+  }
+
+  li {
+    float: left;
+  }
+}
+
+.sign_up {
+  width: 280px;
+  text-align: left;
+  margin-top: 14px;
+}
+
+.sign_up_text {
+  color: $yellow_grey;
+  font-size: $regular_font;
+  margin: 13px 0 10px 10px;
+  background-color: transparent;
+  border: none;
+  font-style: oblique;
+  width: 185px;
+}
+
+.sign_up_button {
+  padding: 11px 15px;
+  color: $white;
+  font-size: $small_font;
+  float: right;
+  margin: 1px;
+  font-style: oblique;
+}
+.twitter {
+  margin-right: 5px;
+
+  i {
+    margin: 6px 14px 4px 14px;
+    color: $light_yellow;
+  }
+}
+
+.twitter_button {
+  color: $white;
+  font-size: $small_font;
+  margin: 1px;
+  font-style: oblique;
+  text-align: left;
+  padding: 5px 0 5px 10px;
+  width: 58px;
+}
+
+.chat {
+  padding: 17px 19px;
+  color: $yellow_grey;
+  width: 378px;
+  font-size: $regular_font;
+  font-style: oblique;
+
+  a {
+    color: $light_yellow;
+    text-decoration: none;
+  }
+}
+
+.about_us {
+  padding: 35px 20px 20px 20px;
+  background-color: $light_yellow;
+  display: inline-block;
+  width: 920px;
+
+  div {
+    display: inline-block;
+    float: left;
+    margin-right: 34px;
+  }
+
+  div:last-child {
+    margin-right: 0;
+  }
+
+  h1 {
+    font-style: oblique;
+    font-size: $big_font;
+    color: $terracotta;
+    font-weight: lighter;
+  }
+
+  ul {
+    border-top: 1px solid $grey;
+    margin-top: 10px;
+  }
+
+  a {
+    color: $dark_grey;
+    font-size: $regular_font;
+  }
+}
+
+.flickr {
+  width: 280px;
+
+  ul:last-child {
+    border-top: none;
+    margin-top: 0;
+  }
+
+  li {
+    display: inline-block;
+    margin-top: 8px;
+    margin-right: 8px;
+  }
+
+  li:last-child {
+    margin-right: 0;
+  }
+}
+.clients {
+
+  ul{
+  padding: 16px 14px 0 14px;
+  }
+
+  li {
+  margin-bottom: 15px;
+  }
+}
+
+.friends {
+
+  ul {
+  padding: 8px 40px 0 40px;
+  }
+  li {
+  margin-bottom: 19px;
+  }
+}
+
+.pages {
+
+  ul {
+  padding: 8px 49px 0 49px;
+  }
+
+  li {
+  margin-bottom: 19px;
+  }
+}
+
+.down_footer {
+  padding: 20px 23px;
+  color: #725142;
+  font-size: 12px;
+  display: inline-block;
+  width: 914px;
+
+  div {
+    display: inline-block;
+  }
+}
+
+.copyright {
+  float: left;
+}
+.faq {
+  float: right;
+}

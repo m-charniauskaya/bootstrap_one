@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: $terracotta;
+  background-image: repeating-linear-gradient(to left top, transparent, transparent 29px,
+  #8a4222 35px,
+  #8a4222 30px);
+  text-align: center;
+  font-style: Myriad Pro;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.wrapper {
+  display: inline-block;
+  position: relative;
+  width: 960px;
+  height: 1000px;
+  text-align: center;
+}
